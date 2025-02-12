@@ -1,0 +1,90 @@
+<!-- thereare many types of mathods :
+get has limit 2048
+ char , less secure
+post  has no limit , secure , need proper backend connection 
+
+            1.get= 1.default
+                    2.char limit 2048 char
+                    3. not secure
+                    4.more restriction
+                    5.req can be book mark
+                    6.only used to request data  cannot edit
+                    7.browers history is  remain                      
+            -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Symantic form</title>
+</head>
+<body>
+    <form action=" " method="get
+    "  >
+        <!-- other attribut we can use : autocomplete , method  -->
+        <fieldset>
+            <legend>info</legend>
+        <label for="username">Name</label>
+        <input type="text" id="username" placeholder="username" name="username" required> <br><br>
+
+        <!-- required/ -->
+
+        <label for="mail">Email</label>
+        <input type="email" id="mail" value="" > <br><br>
+        <!-- <input type="email" id="mail" value="ankit@gmail.com" readonly> <br><br> -->
+
+
+        <label for="password"> password</label>
+        <input type="password" id="password"> <br><br>
+
+        <label for="gender" >gender </label>
+        <input type="radio" name="gender" value="male" >male
+        <input type="radio"  name="gender" disabled value="female">female
+        <input type="radio" name="gender"  value="other"> other <br> <br>
+
+        <label for="dob">dob</label>
+        <input type="date" min="2024-07-06" max="2024-07-25"> <br><br>
+         <!-- date format [year-month-date] -->
+
+        <label for="skills">skills:-</label>
+        <input type="checkbox" id="HTML" name="skills" value="HTML">
+            <label for="HTML">HTML</label>
+
+            <input type="checkbox" id="HTML" name="skills"  checked value="css">
+                <label for="css">css</label> <br> <br>
+
+        <label for=""> qualificatin</label>
+        <select name="qualificatin" id="">
+
+            <optgroup label="B.TCH"></optgroup>
+
+            <option value="cs">cse</option>
+            <option value="me">me</option>
+            <option value="ee">eee</option>
+
+            <optgroup label="BSC"></optgroup>
+
+            <option value="maths">mathematic</option>
+            <option value="physic">physic</option>
+
+        </select><br><br>
+
+        <label for="exp">exp:-</label>
+        <input type="range" value="" min="10" max="20" step="2"><br><br>
+
+        <label for=""> address</label>
+        <textarea name="" id="" rows="5" cols="20"></textarea> <br><br>
+
+        <!-- by defult the rows is 10 and cols is 30 -->
+
+        <input type="reset" name="" id="">
+
+        <input type="submit" value="submit">
+        <button></button>
+    
+    </fieldset>
+
+    </form>
+</body>
+</html>

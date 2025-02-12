@@ -1,0 +1,87 @@
+<!-- anchor tag :-
+
+<a href=" we will pass thr url here "> give the contect here   </a> 
+
+ links that unvisited will shown  in = Blue
+link that are visited in Purple
+ link that are active in that time will show in the in Red
+
+hypertext -  screen visible things willbe in form of hypertext
+hyperref - a link or and text in link
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #navbar{
+            display: flex;
+            background-color: rgb(70, 4, 4);
+            height: 60px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        a{
+           color: white;
+        }
+        #content{
+
+            background: green;
+            height:700px ;
+            width: 100%;
+        }
+        img{
+            height: 250;
+            width: 250;
+        }
+        #btn{
+            margin: 20px;
+            background: blue;
+            color: black;
+            height: 30px;
+            width: 80px;
+            border: none;
+        }
+        #btn:hover{
+            background: green;
+            height: 40px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div  id="navbar">
+        <div><a  target="_blank" href="https://www.amazon.in/"> home</a></div>
+        <div><a href="https://www.myntra.com/">contact</a></div>
+        <div><a href="">login</a></div>
+        <div><a href="">aboutus</a></div>
+    </div>
+    
+    <div><a id="image" href="https://www.myntra.com/"><img src="/Asset/books-7838952_1280.webp" height="250"width= alt=""></a></div>
+    <div id="content"></div>
+    <a href="" target="_top" style="color: brown;">back to top</a> <br>
+    <a href="http://127.0.0.1:5500/Basic/task_1july_instagram.html"  style="color: aqua;">attribute</a> <br>
+    <a href="#image" style="color: black;">Target img</a> <br>
+    <a href="tel:78985874" style="color: black;">call</a><br>
+    <a href="./LIST_3july.html" style="color: black;">list</a><br>
+    <a href="mailto:shingoteankit2@gmail.com" style="color: black;">Email us</a>
+    <hr>
+    <div>
+    <button id="btn">click here</button>
+    <hr>
+    
+</div>
+</body>
+</html>
+
+
+<!-- we can target some elemts in same page ueing achon tag  -->

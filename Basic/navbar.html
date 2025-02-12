@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        #nav{
+            background-color: rgb(203, 138, 167);
+            height: 60px;
+            /* width: ; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+           
+        }
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropdown{
+            height: 60px;
+            border: 2px solid transparent;
+            padding-top: 18px;
+        }
+        #dropdown-content{
+            display: none;
+            position: absolute;
+            margin-top: 20px;
+            height: 800px;
+            background-color: palevioletred;
+            width: 81%;
+        }
+        .dropdown:hover #dropdown-content{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div class="dropdown"> <a title="home" tabindex="2" accesskey="z" href="">HOME</a>
+        <div id="dropdown-content">
+            <div id="first">
+
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+                <a href=""> <h4>topwear</h4></a>
+
+            </div>
+        </div>
+        </div>
+        <div> <a title="login" tabindex="1" href="">LOGIN</a></div>
+        <div> <a title="REGISTER" tabindex="3" href="">REGISTER</a> </div>
+        <div><a  title="HELP"   tabindex="4" href="">HELP</a></div>
+
+    </div>
+    
+</body>
+</html>

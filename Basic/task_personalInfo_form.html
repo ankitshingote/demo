@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            background-color:rgb(245, 245, 245);
+            height: 400px;
+            width: 700px;
+            margin: auto;
+            display: flex;
+            margin-top: 30px;
+            border: 1px solid gray;
+
+        }
+        #img{height: 400px;
+            width: 37%;
+            /* background-color: rgb(83, 223, 223); */
+            padding-left: 50px;
+
+        }
+        #info{height: 400px;
+            width: 100%;
+            /* background-color: lightcyan; */
+            margin: auto;
+            justify-content: center;
+            /* align-content: center; */
+            /* text-align: center; */
+            padding-left: 30px;
+            padding-top: 25px;
+
+        }
+        #form{
+            padding-left: 0px;
+            margin-left: 1px;
+            padding-top: 30px;
+        }
+        
+        
+        #image{
+            background-color: #ba2a4754;
+            height: 380px;
+            /* text-align: center; */
+            padding-top: 25px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-top: 5px;
+            /* padding-left: 20px; */
+
+        }
+         button{
+            align-items: end;
+            padding-top: 30px;
+            margin-top: 30px;
+            align-content: end;
+            margin-left: 80%;
+            padding: 10px;
+         }
+        </style>
+</head>
+<body>
+    <div id="container">
+    <div id="img">
+        <div id="image">    
+                <ol type="1">       
+             <li>Step 1</li>your Info <br><br><br>
+             <li>Step 2</li>Select plans<br><br><br>
+             <li>Step 3</li>add ons<br><br><br>
+             <li>Step 4</li>summary<br><br><br>
+
+            </ol>
+        </div>
+
+    </div>
+    <div id="info">
+        <h2>Personal Info</h2>
+        <h6>Please provide your Name, Email address and Phone Number</h6>
+        <div id="form">
+        <form action="">
+            
+            <label style="margin-left: 1px;" for="Name">Name</label> <br>
+            <input style="border-radius: 10px; height: 30px; " type="text" placeholder="eg:Ankit Shingote" id="name"> <br> <br> <br>
+
+            <label for="Email Address">Email Address </label><br>
+            <input style="border-radius: 10px; height: 30px; "  type="email" placeholder="eg:ankitshingote@gmail.com" id="Email Address"> <br><br> <br>
+
+            <label for="Phone Number">Phone Number</label> <br>
+            <input style="border-radius: 10px; height: 30px; "  type="number" placeholder="7620238728" id="Phone Number">
+
+           <br> <button>next step</button>
+        </form>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>

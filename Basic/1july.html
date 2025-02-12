@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selfpro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       
+        * /* universal selector */ {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* to avoid the increasing of the size of the container */
+        }
+        #container{
+            height: 600px;
+            width: 70%;
+            background-color: black;
+            margin: auto;
+            margin-top: 85px;
+            /* display: flex; */
+        }
+        #box{
+            display: flex;
+        }
+        #logo{
+            height: 400px;
+            width: 50%;
+            /* background-color: aqua; */
+        }
+
+        #info{
+            height: 400px;
+            width: 50%;
+            /* background-color: burlywood; */
+            text-align: center;
+            padding-top: 50px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+
+        h2{
+            color: white;
+            font-size: 45px;
+        }
+        h3{
+            color: white;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        h4{
+            color:white;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+         .icons{
+            height: 100px;
+            width: 100%;
+             /* background-color: rgb(214, 40, 144); */
+             display:flex;
+             margin-top: 40px;
+             justify-content: space-evenly;
+             align-items: center;
+         } 
+
+         i{
+            font-size: 40px;
+         }
+         .ico{
+            height: 60px;
+            width: 60px;           
+            background-color: rgb(113, 162, 205);
+            display: flex;
+            align-items:center; 
+            justify-content:center;
+             border-radius: 100%; 
+         }
+        img{
+            height: 285px;
+            width: 285px;
+            /* margin: auto; */
+            margin-left: 80px;
+            margin-top: 35px;
+            border-radius: 100%;
+
+       }
+       
+    </style> 
+
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+        <div id="logo">
+            <img src="/Asset/ankit.JPG" alt=""> </div>
+        <div id="info">
+            <h2>Ankit Shingote</h2>
+            <h3>Full-stack Dev</h3>
+            <h4><i style="font-size: 20px;" class="fa-solid fa-phone"></i>7852587485</h4>
+        </div>
+    </div>
+        <div class="icons">
+        <div title="Facebook" class="ico"><i style="color: blue;" class="fa-brands fa-facebook"></i></div>
+        <div title="Instagram" class="ico"><i style="color: red;" class="fa-brands fa-instagram"></i></div>
+        <div title="Twitter" class="ico"><i style="color: white;" class="fa-brands fa-twitter"></i></div>
+    </div>
+    </div>
+    
+</body>
+</html>
